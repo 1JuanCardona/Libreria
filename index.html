@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+</head>
+<body>
+
+    <h1>
+        LIBRERIA 
+    </h1>
+    <form>
+        <input type="text" id="posicionLabel" name="posicionLabel"><br>
+        
+        <label for="nombre">NOMBRE:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        <label for="autor">AUTOR:</label>
+        <input type="text" id="autor" name="autor" required><br><br>
+        <label for="precio">PRECIO:</label>
+        <input type="text" id="precio" name="precio" required><br><br>
+    </form>
+    <button id="save">CAPTURAR</button>
+    <button id="edit">GUARDAR</button>
+    <button id="cancel">CANCELAR</button>
+    <br>
+    <table id="listaLibrosTabla">
+
+        <thead>
+            <tr>
+      
+                <th>NOMBRE </th>            
+                <th> AUTOR </th>
+                <th>PRECIO</th>
+                <th>ACCIONES</th>
+                
+                
+            
+              </tr>
+        </thead>
+      
+        <tbody>
+
+        </tbody>
+      
+      </table>
+    
+<script src="index.js"></script>
+</body>
+</html>
